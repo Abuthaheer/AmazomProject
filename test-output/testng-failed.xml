@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="TestScripts.DressesPageTests">
+        <methods>
+          <include name="verifyProductCount"/>
+        </methods>
+      </class> <!-- TestScripts.DressesPageTests -->
+      <class name="TestScripts.LoginTest">
+        <methods>
+          <include name="verifyLoginSuccess"/>
+        </methods>
+      </class> <!-- TestScripts.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
